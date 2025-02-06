@@ -277,6 +277,7 @@ resolution applies to merging, refer to the [API specification][grpcrouterule].
 [hostname]: /reference/spec/#gateway.networking.k8s.io/v1.Hostname
 [rfc-3986]: https://tools.ietf.org/html/rfc3986
 [matches]: /reference/spec/#gateway.networking.k8s.io/v1.GRPCRouteMatch
+[name]: /reference/spec/#gateway.networking.k8s.io/v1.SectionName
 [filters]: /reference/spec/#gateway.networking.k8s.io/v1.GRPCRouteFilter
 [backendRef]: /reference/spec/#gateway.networking.k8s.io/v1.GRPCBackendRef
 [parentRef]: /reference/spec/#gateway.networking.k8s.io/v1.ParentRef

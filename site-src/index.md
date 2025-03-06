@@ -69,15 +69,15 @@ individual route resources (such as [HTTPRoute](api-types/httproute.md)) are
 mesh to manage traffic from any traffic directed to that Service while
 preserving the role-oriented nature of Gateway API.
 
-To date, [GAMMA](mesh/gamma.md) has been able to support mesh functionality with
+To date, [GAMMA](mesh/index.md) has been able to support mesh functionality with
 fairly minimal changes to Gateway API. One particular area that has
 rapidly become critical for GAMMA, though, is the definition of the different
 [facets of the Service resource][service-facets].
 
-[gamma]:/concepts/gamma/
+[gamma]:mesh/index.md
 [service-mesh]:concepts/glossary.md#service-mesh
-[service-facets]:/concepts/service-facets
-[mesh-attachment]:/concepts/gamma#gateway-api-for-mesh
+[service-facets]:mesh/service-facets.md
+[mesh-attachment]:/mesh/index.md
 
 ## Getting started
 
@@ -89,7 +89,7 @@ you the necessary background:
 - [User guides](guides/index.md)
 - [Implementations](implementations.md)
 - [API reference spec](reference/spec.md)
-- [Community links](/contributing/community) and [developer guide](contributing/devguide.md)
+- [Community links](contributing/index.md) and [developer guide](contributing/devguide.md)
 
 ## Gateway API concepts
 The following design goals drive the concepts of Gateway API. These
@@ -205,7 +205,7 @@ project being built to improve and standardize service networking in Kubernetes.
 Check out the [implementations reference](implementations.md) to see the latest
 projects & products that support Gateway. If you are interested in contributing
 to or building an implementation using Gateway API then don’t hesitate to [get
-involved!](/contributing/community)
+involved!](contributing/index.md)
 
 [sig-network]: https://github.com/kubernetes/community/tree/master/sig-network
 

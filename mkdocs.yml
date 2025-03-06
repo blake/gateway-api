@@ -184,3 +184,9 @@ nav:
 not_in_nav: |
   /blog/*
   /geps/gep-696/*
+validation:
+  nav:
+    omitted_files: warn
+  links:
+    absolute_links: relative_to_docs
+    unrecognized_links: warn
